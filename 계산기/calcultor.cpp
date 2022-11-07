@@ -44,6 +44,46 @@ void subtraction(int x, int y) {             //뺄셈
 }
 
 
+
+void multiplication(int x, int y) {          //곱셈
+
+
+	printf_s("두개의 정수를 입력하세요.");
+	scanf_s("%d%d", &x, &y);
+
+	r = x * y;
+
+	printf_s("곱셈 결과는 %d 입니다.", r);
+
+
+}
+
+
+
+void division(int x, int y) {                //나눗셈
+
+
+	printf_s("두개의 정수를 입력하세요.");
+	scanf_s("%d%d", &x, &y);
+
+	if (x >= y) {
+		r = x / y;
+	}
+	else {
+
+		r = y / x;
+	}
+
+	printf_s("곱셈 결과는 %d 입니다.", r);
+
+
+
+
+}
+
+
+
+
 void greatestCommonFactor(int x, int y) {     //최대 공약수
 
 	printf_s("두개의 정수를 입력하세요 : ");
