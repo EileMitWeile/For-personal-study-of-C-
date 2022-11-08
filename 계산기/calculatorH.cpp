@@ -16,3 +16,4 @@ void integerConversion(int x);              //정수 변환
 void squareRoot(int x);                     //제곱근
 void greatestCommonFactor(int x,int y);     //최대 공약수
 void surplus(int x,int y);                  //나머지
+// 웹사이트 생성해서 계산기 앱 구현해보기
